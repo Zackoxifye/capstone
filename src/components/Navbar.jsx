@@ -42,11 +42,7 @@ const Navbar = ({ token, setToken, allProducts }) => {
   return (
     <div id="navbar">
       <Link to="/">
-        <img
-          src="/src/images/SadAmazonWhite.png"
-          alt="Home"
-          className="home-button"
-        />
+        <img src="/SadAmazonWhite.png" alt="Home" className="home-button" />
       </Link>
       <input
         className="searchBar"
@@ -69,11 +65,7 @@ const Navbar = ({ token, setToken, allProducts }) => {
         </Link>
       )}
       <Link to="/Cart">
-        <img
-          src="/src/images/NotAmazonCart.png"
-          alt="cart"
-          className="cart-icon"
-        />
+        <img src="/NotAmazonCart.png" alt="cart" className="cart-icon" />
         {cartItemCount > 0 && (
           <span className="cart-item-count">{cartItemCount}</span>
         )}
